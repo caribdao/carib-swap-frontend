@@ -82,9 +82,10 @@ function MyApp(props: AppProps<{ initialReduxState: any; dehydratedState: any }>
         />
         <meta
           name="description"
-          content="Cheaper and faster than Uniswap? Discover PancakeSwap, the leading DEX on BNB Smart Chain (BSC) with the best farms in DeFi and a lottery for CAKE."
+          content="More Caribbean than PancakeSwap? Discover CARIB Swap, the leading Caribbean-flavored DEX on BNB Smart Chain (BSC) powered by CAKE!"
         />
         <meta name="theme-color" content="#1FC7D4" />
+        <title>CARIB Swap</title>
         {(Component as NextPageWithLayout).mp && (
           // eslint-disable-next-line @next/next/no-sync-scripts
           <script src="https://public.bnbstatic.com/static/js/mp-webview-sdk/webview-v1.0.0.min.js" id="mp-webview" />
