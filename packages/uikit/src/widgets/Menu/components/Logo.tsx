@@ -46,8 +46,8 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <img src="/images/caribswap/logo.png" width="32px" height="32px" alt="logo" />
-      <span className="logoText">CARIB Swap</span> 
+      <img src="/images/caribswap/logo.png" height="32px" alt="logo" />
+      <span className="logoText"></span> 
     </>
   );
 
