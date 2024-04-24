@@ -46,8 +46,8 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon" />
-      <LogoWithTextIcon className="desktop-icon" />
+      <img src="/images/caribswap/logo.png" width="11%" alt="logo" />
+      <span className="logoText">CARIB Swap</span> 
     </>
   );
 
