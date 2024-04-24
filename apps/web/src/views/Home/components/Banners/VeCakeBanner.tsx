@@ -53,7 +53,7 @@ const learnMoreLink = 'https://docs.pancakeswap.finance/products/vecake'
 const Desc = () => {
   return (
     <BannerDesc>
-      <Trans>Discover other benefits like voting incentives...</Trans>
+      <Trans>Discover other benefits like Carib DAO voting incentives...</Trans>
     </BannerDesc>
   )
 }
@@ -66,7 +66,7 @@ export const VeCakeBanner = () => {
   const stakeCakeLinkAction = (
     <LinkExternalAction href={stakeCakeLink} color="black" externalIcon="arrowForward">
       <Flex color="black" alignItems="center" style={{ whiteSpace: 'nowrap' }}>
-        {t('Stake CAKE')}
+        {t('Stake CARIB')}
       </Flex>
     </LinkExternalAction>
   )
@@ -89,10 +89,10 @@ export const VeCakeBanner = () => {
         title={
           <BannerTitle variant="yellow">
             {isMobile || isTablet
-              ? t('Stake CARIB:CAKE and earn !', {
+              ? t('Stake CARIB : CAKE and Earn !', {
                   apr: totalApr.toFixed(2),
                 })
-              : t('Stake CARIB:CAKE and earn !', {
+              : t('Stake CARIB : CAKE LP and Earn !', {
                   apr: totalApr.toFixed(2),
                 })}
           </BannerTitle>
