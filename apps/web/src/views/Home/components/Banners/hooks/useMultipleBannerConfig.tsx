@@ -48,34 +48,33 @@ export const useMultipleBannerConfig = () => {
         shouldRender: isRenderUserBanner.shouldRender && !isRenderUserBanner.isEarningsBusdZero,
         banner: <UserBanner />,
       },
-      {/*   { shouldRender: isRenderIFOBanner || Boolean(countdown), banner: <NewIFOBanner /> },
+   // { shouldRender: isRenderIFOBanner || Boolean(countdown), banner: <NewIFOBanner /> },
       {
-        shouldRender: true,
-        banner: <MasaTCBanner />,
+        shouldRender: false,
+        banner: <MasaTCBanner />, 
       },
       {
-        shouldRender: true,
+        shouldRender: false,
         banner: <MultiChainBanner />,
       },
       {
-        shouldRender: true,
+        shouldRender: false,
         banner: <OptionsBanner />,
       },
-      */}
       { shouldRender: true, banner: <VeCakeBanner /> },
-      {/*    {
-        shouldRender: true,
+      {
+        shouldRender: false,
         banner: <V4InfoBanner />,
       },
       {
-        shouldRender: true,
+        shouldRender: false,
         banner: <NemesisDownfallBanner />,
       },
       {
-        shouldRender: true,
+        shouldRender: false,
         banner: <TopTraderBanner />,
       },
-      */}
+
     ]
 
     const SHUFFLE_BANNERS: IBannerConfig[] = [
