@@ -47,7 +47,7 @@ const BannerDesc = styled(Text)`
   white-space: nowrap;
 `
 
-const stakeCakeLink = '/cake-staking'
+const stakeCakeLink = '/info/pairs/0x4ec411247c357d0fa1636a0cfe2a5d6256295568' 
 const learnMoreLink = 'https://docs.pancakeswap.finance/products/vecake'
 
 const Desc = () => {
@@ -89,10 +89,10 @@ export const VeCakeBanner = () => {
         title={
           <BannerTitle variant="yellow">
             {isMobile || isTablet
-              ? t('Stake CARIB:CAKE - up to %apr%% APR !', {
+              ? t('Stake CARIB:CAKE and earn !', {
                   apr: totalApr.toFixed(2),
                 })
-              : t('Stake CARIB:CAKE and earn up to %apr%% APR !', {
+              : t('Stake CARIB:CAKE and earn !', {
                   apr: totalApr.toFixed(2),
                 })}
           </BannerTitle>
