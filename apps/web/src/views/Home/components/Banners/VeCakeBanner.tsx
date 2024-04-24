@@ -48,7 +48,7 @@ const BannerDesc = styled(Text)`
 `
 
 const stakeCakeLink = '/info/pairs/0x4ec411247c357d0fa1636a0cfe2a5d6256295568' 
-const learnMoreLink = 'https://docs.pancakeswap.finance/products/vecake'
+const learnMoreLink = 'https://caribdao.com/earn'
 
 const Desc = () => {
   return (
