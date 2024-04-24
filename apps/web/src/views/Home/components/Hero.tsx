@@ -231,7 +231,7 @@ const Hero = () => {
             </StyledText>
             {isMobile && <br />}
             <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text">
-              {t('With Gas! 🌊🚀')}
+              {t('with Gas!🌊🚀')}
             </StyledText>
           </Text>
           <Text
