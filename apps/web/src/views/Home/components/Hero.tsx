@@ -231,7 +231,7 @@ const Hero = () => {
             </StyledText>
             {isMobile && <br />}
             <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text">
-              {t('with Gas!')}
+              {t('With Gas! 🌊🚀')}
             </StyledText>
           </Text>
           <Text
@@ -243,7 +243,7 @@ const Hero = () => {
             lineHeight="110%"
             fontWeight={600}
           >
-            {t('Trade, earn, and own crypto on the all-in-one multichain DEX')}
+            {t('Trade, earn, and buy crypto on a Caribbean-flavored multichain DEX')}
           </Text>
 
           <Flex justifyContent={isMobile || isMd ? 'center' : 'start'}>
