@@ -47,7 +47,7 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
   const innerLogo = (
     <>
       <img src="/images/caribswap/logo.png" width="64px" height="32px" alt="logo" />
-      <span className="logoText">&nbsp;CARIB Swap</span> 
+      <span className="logoText"> &nbsp; </span> 
     </>
   );
 
