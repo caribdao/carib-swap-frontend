@@ -80,7 +80,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    href: "https://x.com/caribdao",
   },
   {
     label: "Telegram",
@@ -88,13 +88,13 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/pancakeswap",
+        href: "https://t.me/caribdao",
       },
       {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/pancakeswapIndonesia",
+        label: "Updates",
+        href: "https://t.me/caribdao",
       },
-      {
+      {/*   {
         label: "中文",
         href: "https://t.me/pancakeswap_CN",
       },
@@ -149,33 +149,33 @@ export const socials = [
       {
         label: "Announcements",
         href: "https://t.me/PancakeSwapAnn",
-      },
+      },  */}
     ],
   },
   {
     label: "Reddit",
     icon: RedditIcon,
-    href: "https://reddit.com/r/pancakeswap",
+    href: "https://reddit.com/r/caribdao",
   },
   {
     label: "Instagram",
     icon: InstagramIcon,
-    href: "https://instagram.com/pancakeswap_official",
+    href: "https://instagram.com/caribdao",
   },
   {
     label: "Github",
     icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
+    href: "https://github.com/caribdao/",
   },
   {
     label: "Discord",
     icon: DiscordIcon,
-    href: "https://discord.gg/pancakeswap",
+    href: "https://discord.caribdao.com",
   },
   {
     label: "Youtube",
     icon: YoutubeIcon,
-    href: "https://www.youtube.com/@pancakeswap_official",
+    href: "https://www.youtube.com/caribdao",
   },
 ];
 
