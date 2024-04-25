@@ -92,9 +92,9 @@ const Menu = (props) => {
     return () => setTheme(isDark ? 'light' : 'dark')
   }, [setTheme, isDark])
 
-  const getFooterLinks = useMemo(() => {
-    return footerLinks(t)
-  }, [t])
+  // const getFooterLinks = useMemo(() => {
+  //  return footerLinks(t)
+  // }, [t])
 
   return (
     <>
@@ -122,7 +122,7 @@ const Menu = (props) => {
         cakePriceUsd={cakePrice.eq(BIG_ZERO) ? undefined : cakePrice}
         links={menuItems}
         subLinks={activeMenuItem?.hideSubNav || activeSubMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
-        //footerLinks={getFooterLinks}
+        // footerLinks={getFooterLinks}
         activeItem={activeMenuItem?.href}
         activeSubItem={activeSubMenuItem?.href}
         buyCakeLabel={t('Buy CARIB')}
