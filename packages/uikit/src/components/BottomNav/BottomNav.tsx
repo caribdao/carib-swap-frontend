@@ -18,7 +18,7 @@ const BottomNav: React.FC<React.PropsWithChildren<BottomNavProps>> = ({
   return (  
     <>
       {isBottomMenuOpen && <Overlay />}
-  {/* <StyledBottomNav justifyContent="space-around" {...props}>
+   <StyledBottomNav justifyContent="space-around" {...props}>
         {items.map(
           (
             { label, items: menuItems, href, icon, fillIcon, showOnMobile = true, showItemsOnMobile = true, disabled },
@@ -55,7 +55,7 @@ const BottomNav: React.FC<React.PropsWithChildren<BottomNavProps>> = ({
             );
           }
         )}
-      </StyledBottomNav>  */}
+      </StyledBottomNav>  
     </>
   );
 };
