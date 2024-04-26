@@ -45,6 +45,9 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
       justifyContent="center"
     >
       <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
+        <>
+          <img src="/images/caribswap/logo.png" width="300px" alt="logo" />
+        </>
         <StyledText>Powered by</StyledText>
         <StyledIconMobileContainer display={["block", null, "none"]}>
           <LogoWithTextIcon width="130px" />
