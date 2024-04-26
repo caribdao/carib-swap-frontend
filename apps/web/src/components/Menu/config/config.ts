@@ -103,7 +103,7 @@ const config: (
         },    */},
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {
+    {/* {
       label: t('Buy'),
       href: '/buy-crypto',
       icon: ShoppingBasketIcon,
@@ -114,7 +114,7 @@ const config: (
           href: '/buy-crypto',
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
-    },
+    },  */},
     {
       label: t('Earn'),
       href: '/farms',
@@ -181,7 +181,7 @@ const config: (
           label: t('Pottery (BETA)'),
           href: '/pottery',
           image: '/images/decorations/lottery.png',
-        }, */}
+        }, */},
       ].map((item) => addMenuItemSupported(item, chainId)),
     },    
     {/*  {
@@ -264,7 +264,7 @@ const config: (
           label: t('v4'),
           href: '/v4',
           isMobileOnly: true,
-        },   */}
+        },   */},
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
   ].map((item) => addMenuItemSupported(item, chainId))
