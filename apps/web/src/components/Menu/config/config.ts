@@ -69,7 +69,7 @@ const config: (
           label: t('Liquidity'),
           href: '/liquidity',
         },
-        {
+        {/*   {
           label: t('Perpetual'),
           href: getPerpetualUrl({
             chainId,
@@ -95,12 +95,12 @@ const config: (
           href: '/limit-orders',
           supportChainIds: SUPPORT_ONLY_BSC,
           image: '/images/decorations/3d-coin.png',
-        },
+        },  
         {
           label: t('Trading Reward'),
           href: '/trading-reward',
           hideSubNav: true,
-        },
+        },    */}
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
     {
@@ -138,7 +138,7 @@ const config: (
           href: '/pools',
           supportChainIds: POOL_SUPPORTED_CHAINS,
         },
-        {
+        {/* {
           label: t('Position Manager'),
           href: '/position-managers',
           supportChainIds: POSITION_MANAGERS_SUPPORTED_CHAINS,
@@ -152,10 +152,10 @@ const config: (
           label: t('Simple Staking'),
           href: '/simple-staking',
           supportChainIds: FIXED_STAKING_SUPPORTED_CHAINS,
-        },
+        },   */}
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {
+    {/*   {
       label: t('Game'),
       icon: PancakeProtectorIcon,
       hideSubNav: true,
@@ -183,7 +183,7 @@ const config: (
           image: '/images/decorations/lottery.png',
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
-    },
+    },    
     {
       label: t('NFT'),
       href: `${nftsBaseUrl}`,
@@ -211,7 +211,7 @@ const config: (
       href: '/v4',
       showOnMobile: false,
       items: [],
-    },
+    },    */}
     {
       label: '',
       href: '/info',
@@ -222,7 +222,7 @@ const config: (
           label: t('Info'),
           href: '/info/v3',
         },
-        {
+        {/*  {
           label: t('IFO'),
           href: '/ifo',
           supportChainIds: IFO_SUPPORTED_CHAINS,
@@ -249,22 +249,22 @@ const config: (
         },
         {
           type: DropdownMenuItemType.DIVIDER,
-        },
+        },   */}
         {
           label: t('Blog'),
-          href: 'https://blog.pancakeswap.finance',
+          href: 'https://peakd.com/@caribdao',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
-          label: t('Docs'),
-          href: 'https://docs.pancakeswap.finance',
+          label: t('Lite Paper'),
+          href: 'https://caribdao.com/litepaper',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
-        {
+        {/*   {
           label: t('v4'),
           href: '/v4',
           isMobileOnly: true,
-        },
+        },   */}
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
   ].map((item) => addMenuItemSupported(item, chainId))
