@@ -155,7 +155,7 @@ const config: (
         },   */}
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {/*   {
+    {
       label: t('Game'),
       icon: PancakeProtectorIcon,
       hideSubNav: true,
@@ -166,7 +166,7 @@ const config: (
           href: 'https://pancakeswap.games/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
-        {
+        {/* {
           label: t('Prediction (BETA)'),
           href: '/prediction',
           image: '/images/decorations/prediction.png',
@@ -181,10 +181,10 @@ const config: (
           label: t('Pottery (BETA)'),
           href: '/pottery',
           image: '/images/decorations/lottery.png',
-        },
+        }, */}
       ].map((item) => addMenuItemSupported(item, chainId)),
     },    
-    {
+    {/*  {
       label: t('NFT'),
       href: `${nftsBaseUrl}`,
       icon: NftIcon,
@@ -205,13 +205,13 @@ const config: (
           href: `${nftsBaseUrl}/activity`,
         },
       ],
-    },
+    },  */}
     {
       label: t('v4'),
       href: '/v4',
       showOnMobile: false,
       items: [],
-    },    */}
+    },    
     {
       label: '',
       href: '/info',
@@ -260,7 +260,7 @@ const config: (
           href: 'https://caribdao.com/litepaper',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
-        {/*   {
+        {/* {
           label: t('v4'),
           href: '/v4',
           isMobileOnly: true,
