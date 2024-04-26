@@ -48,10 +48,10 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
         <>
           <img src="/images/caribswap/logo.png" width="300px" alt="logo" />
         </>
-        <StyledText>Powered by</StyledText>
-        <StyledIconMobileContainer display={["block", null, "none"]}>
+        <StyledText>Powered by Carib DAO</StyledText>
+        {/* <StyledIconMobileContainer display={["block", null, "none"]}>
           <LogoWithTextIcon width="130px" />
-        </StyledIconMobileContainer>
+        </StyledIconMobileContainer>  */}
         <Flex
           order={[2, null, 1]}
           flexDirection={["column", "column", "column", "column", "row", "row"]}
