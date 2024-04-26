@@ -184,7 +184,7 @@ const config: (
         }, */}
       ].map((item) => addMenuItemSupported(item, chainId)),
     },    
-    {
+    {/*{
       label: t('NFT'),
       href: `${nftsBaseUrl}`,
       icon: NftIcon,
@@ -205,13 +205,13 @@ const config: (
           href: `${nftsBaseUrl}/activity`,
         },
       ],
-    },  
+    }, 
     {
       label: t('v4'),
       href: '/v4',
       showOnMobile: false,
       items: [],
-    },    
+    },    */}, 
     {
       label: '',
       href: '/info',
