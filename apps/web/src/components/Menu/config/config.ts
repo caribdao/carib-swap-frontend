@@ -249,7 +249,7 @@ const config: (
         },
         {
           type: DropdownMenuItemType.DIVIDER,
-        },   */}
+        },   */},
         {
           label: t('Blog'),
           href: 'https://peakd.com/@caribdao',
