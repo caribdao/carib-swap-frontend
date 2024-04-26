@@ -53,7 +53,7 @@ const learnMoreLink = 'https://caribdao.com/earn'
 const Desc = () => {
   return (
     <BannerDesc>
-      <Trans>Discover other benefits like Carib DAO voting incentives...</Trans>
+      <Trans>Discover other benefits like Carib DAO voting incentives ...</Trans>
     </BannerDesc>
   )
 }
@@ -89,10 +89,10 @@ export const VeCakeBanner = () => {
         title={
           <BannerTitle variant="yellow">
             {isMobile || isTablet
-              ? t('Stake CARIB : CAKE and Earn !', {
+              ? t('Stake CARIB with CAKE and Earn !', {
                   apr: totalApr.toFixed(2),
                 })
-              : t('Stake CARIB : CAKE LP and Earn !', {
+              : t('Stake CARIB with CAKE and Earn !', {
                   apr: totalApr.toFixed(2),
                 })}
           </BannerTitle>
