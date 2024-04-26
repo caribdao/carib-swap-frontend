@@ -89,10 +89,10 @@ export const VeCakeBanner = () => {
         title={
           <BannerTitle variant="yellow">
             {isMobile || isTablet
-              ? t('Stake CARIB with CAKE and Earn !', {
+              ? t('Stake CARIB with CAKE and earn !', {
                   apr: totalApr.toFixed(2),
                 })
-              : t('Stake CARIB with CAKE and Earn !', {
+              : t('Stake CARIB with CAKE and earn !', {
                   apr: totalApr.toFixed(2),
                 })}
           </BannerTitle>
