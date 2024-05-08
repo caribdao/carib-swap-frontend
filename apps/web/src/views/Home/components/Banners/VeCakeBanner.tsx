@@ -47,13 +47,13 @@ const BannerDesc = styled(Text)`
   white-space: nowrap;
 `
 
-const stakeCakeLink = '/info/pairs/0x4ec411247c357d0fa1636a0cfe2a5d6256295568' 
+const stakeCakeLink = '/v2/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8' 
 const learnMoreLink = 'https://caribdao.com/earn'
 
 const Desc = () => {
   return (
     <BannerDesc>
-      <Trans>Discover other benefits like Carib DAO voting incentives ...</Trans>
+      <Trans>Discover other benefits and Carib DAO voting incentives ...</Trans>
     </BannerDesc>
   )
 }
@@ -89,10 +89,10 @@ export const VeCakeBanner = () => {
         title={
           <BannerTitle variant="yellow">
             {isMobile || isTablet
-              ? t('Stake CARIB with CAKE and earn !', {
+              ? t('Join CARIB-CAKE LP and earn !', {
                   apr: totalApr.toFixed(2),
                 })
-              : t('Stake CARIB with CAKE and earn !', {
+              : t('Join CARIB-CAKE LP and earn !', {
                   apr: totalApr.toFixed(2),
                 })}
           </BannerTitle>
