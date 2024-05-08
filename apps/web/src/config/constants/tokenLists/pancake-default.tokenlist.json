@@ -19,6 +19,14 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/bnb.png"
     },
     {
+      "name": "CARIB Token",
+      "symbol": "CARIB",
+      "address": "0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://caribdao.com/wp-content/uploads/2022/03/Logo_90_h.png"
+    },
+    {
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
