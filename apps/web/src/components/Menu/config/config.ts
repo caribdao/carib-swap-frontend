@@ -58,12 +58,12 @@ const config: (
       label: t('Trade'),
       icon: SwapIcon,
       fillIcon: SwapFillIcon,
-      href: '/swap',
+      href: '/swap?outputCurrency=0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8',
       showItemsOnMobile: false,
       items: [
         {
           label: t('Swap'),
-          href: '/swap',
+          href: '/swap?outputCurrency=0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8',
         },
         {
           label: t('Liquidity'),
