@@ -23,6 +23,14 @@ export const bscTokens = {
     'Gamifi',
     'https://gamifi.gg/',
   ),
+   carib: new ERC20Token(
+    ChainId.BSC,
+    '0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8',
+    8,
+    'CARIB',
+    'Carib DAO',
+    'https://caribdao.com/',
+  ),
   tlos: new ERC20Token(
     ChainId.BSC,
     '0xb6C53431608E626AC81a9776ac3e999c5556717c',
