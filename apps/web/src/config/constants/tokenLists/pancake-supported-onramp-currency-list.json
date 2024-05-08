@@ -11,6 +11,14 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "Carib DAO CARIB",
+      "symbol": "CARIB",
+      "address": "0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://caribdao.com/wp-content/uploads/2022/03/Logo_90_h.png"
+    },
+    {
       "name": "Binance Pegged USDT",
       "symbol": "USDT",
       "address": "0x55d398326f99059fF775485246999027B3197955",
