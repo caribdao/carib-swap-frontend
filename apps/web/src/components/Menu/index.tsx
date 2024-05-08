@@ -126,7 +126,7 @@ const Menu = (props) => {
         activeItem={activeMenuItem?.href}
         activeSubItem={activeSubMenuItem?.href}
         buyCakeLabel={t('Buy CARIB')}
-        buyCakeLink="/swap?inputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82&outputCurrency=0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8"
+        buyCakeLink="/swap?outputCurrency=0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8"
         {...props}
       />
     </>
