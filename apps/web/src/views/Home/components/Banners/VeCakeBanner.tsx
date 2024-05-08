@@ -92,7 +92,7 @@ export const VeCakeBanner = () => {
               ? t('Join CARIB-CAKE LP and earn !', {
                   apr: totalApr.toFixed(2),
                 })
-              : t('Join CARIB-CAKE LP and earn !', {
+              : t('Join CARIB-CAKE LP and start earning !', {
                   apr: totalApr.toFixed(2),
                 })}
           </BannerTitle>
