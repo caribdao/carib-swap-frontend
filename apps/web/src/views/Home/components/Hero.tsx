@@ -41,7 +41,7 @@ const CakeBox = styled.div`
   height: 300px;
   > canvas {
     transform: scale(0.33) translate(-50%, -50%);
-    transform-origin: top left;
+    transform-origin: top center;
     &.is-ios {
       transform: scale(0.75) translate(-50%, -50%);
     }
