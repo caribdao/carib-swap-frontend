@@ -98,6 +98,11 @@ const config: (
           supportChainIds: SUPPORT_FARMS,
         },
         {
+          label: t('CARIB-CAKE LP'),
+          href: '/v2/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8',
+          supportChainIds: SUPPORT_CAKE_STAKING,
+        },
+        {
           label: t('CAKE Staking'),
           href: '/cake-staking',
           supportChainIds: SUPPORT_CAKE_STAKING,
@@ -110,6 +115,20 @@ const config: (
       
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
+    {
+      label: t('CARIB'),
+      icon: PancakeProtectorIcon,
+      hideSubNav: true,
+      href: '/info/v3/tokens/0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8',
+      items: [
+        {
+          label: t('Info'),
+          href: '/info/v3/tokens/0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
+       
+      ].map((item) => addMenuItemSupported(item, chainId)),
+    },    
     {
       label: t('Game'),
       icon: PancakeProtectorIcon,
