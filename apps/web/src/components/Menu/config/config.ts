@@ -72,7 +72,7 @@ const config: (
         
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {/* {
+    /* {
       label: t('Buy'),
       href: '/buy-crypto',
       icon: ShoppingBasketIcon,
@@ -83,7 +83,7 @@ const config: (
           href: '/buy-crypto',
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
-    },  */},
+    },  */
     {
       label: t('Earn'),
       href: '/farms',
@@ -143,7 +143,7 @@ const config: (
        
       ].map((item) => addMenuItemSupported(item, chainId)),
     },    
-    {/*  {
+   /*  {
       label: t('NFT'),
       href: `${nftsBaseUrl}`,
       icon: NftIcon,
@@ -170,7 +170,7 @@ const config: (
       href: '/v4',
       showOnMobile: false,
       items: [],
-    },    */}, 
+    },    */ 
     {
       label: '',
       href: '/info',
