@@ -35,8 +35,8 @@ export const V4CakeIcon = () => {
   }, [])
 
   return (
-    <Container hasScrollToTopButton={hasScrollToTopButton} href="/v4">
-      <Image src={`${ASSET_CDN}/web/v4-landing/v4-icon.png`} alt="introducing-v4-icon" width={48} height={48} />
+    <Container hasScrollToTopButton={hasScrollToTopButton} href="https://caribdao.com">
+      <Image src="/images/caribswap/clogo_180h.png" alt="c-icon" width={48} height={48} />
     </Container>
   )
 }
