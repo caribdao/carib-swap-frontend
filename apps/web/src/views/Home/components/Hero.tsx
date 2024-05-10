@@ -296,7 +296,7 @@ const Hero = () => {
                   </CakeVideo>
                 </VideoWrapper> */}
                   
-                <source src={`apps/web/public/images/caribswap/space1_trans.png`} type="image/png" />
+                <source src={`/images/caribswap/space1_trans.png`} type="image/png" />
               )}
             </CakeBox>
           </BunnyWrapper>
