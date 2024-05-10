@@ -36,7 +36,7 @@ export const V4CakeIcon = () => {
 
   return (
     <Container hasScrollToTopButton={hasScrollToTopButton} href="https://caribdao.com">
-      <Image src="/images/caribswap/clogo_180h.png" alt="c-icon" width={48} height={48} />
+      <Image src="/images/caribswap/clogo_180h.png" alt="c-icon" width={48} height={54} />
     </Container>
   )
 }
