@@ -18,7 +18,7 @@ import { useFourYearTotalVeCakeApr } from 'views/CakeStaking/hooks/useAPR'
 
 const floatingAsset = `${ASSET_CDN}/web/banners/vecake/floating-item.png`
 const bgDesktop = `/images/caribswap/sfb1_transp.png`
-const bgMobile = `${ASSET_CDN}/web/banners/vecake/bg-mobile.png`
+const bgMobile = `/images/caribswap/sfb1_transp.png`
 
 const bgSmVariant: GraphicDetail = {
   src: bgMobile,
