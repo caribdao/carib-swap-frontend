@@ -50,7 +50,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
         </>
        
         <StyledIconMobileContainer display={["block", null, "none"]}>
-           <StyledText>Powered by Carib DAO and PancakeSwap (Open Source DEX)</StyledText>
+           <StyledText>Powered by Carib DAO and PancakeSwap OS DEX</StyledText>
         </StyledIconMobileContainer> 
         
         
