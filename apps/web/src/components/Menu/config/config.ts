@@ -260,11 +260,7 @@ const config: (
           href: 'https://caribdao.com/litepaper',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
-        {/* {
-          label: t('v4'),
-          href: '/v4',
-          isMobileOnly: true,
-        },   */},
+        
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
   ].map((item) => addMenuItemSupported(item, chainId))
