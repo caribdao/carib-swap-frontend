@@ -248,7 +248,7 @@ const Hero = () => {
 
           <Flex justifyContent={isMobile || isMd ? 'center' : 'start'}>
             {!account && <ConnectWalletButton style={{ borderRadius: isXs ? 12 : undefined }} scale="md" mr="8px" />}
-            <NextLinkFromReactRouter to="/swap">
+            <NextLinkFromReactRouter to="/swap?outputCurrency=0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8">
               <Button
                 scale="md"
                 style={{ borderRadius: isXs ? 12 : undefined }}
