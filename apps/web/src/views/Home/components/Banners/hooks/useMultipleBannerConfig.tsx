@@ -6,7 +6,7 @@ import { GalxeTraverseBanner } from '../GalxeTraverseBanner'
 import GameBanner from '../GameBanner'
 import { MasaTCBanner } from '../MasaTCBanner'
 import { MultiChainBanner } from '../MultichainBanner'
-import { NemesisDownfallBanner } from '../NemesisDownfallBanner'
+import { PancakeProtectorBanner } from '../PancakeProtectorBanner'
 import NewIFOBanner from '../NewIFOBanner'
 import { OptionsBanner } from '../OptionsBanner'
 import PerpetualBanner from '../PerpetualBanner'
@@ -67,8 +67,8 @@ export const useMultipleBannerConfig = () => {
         banner: <V4InfoBanner />,
       },
       {
-        shouldRender: false,
-        banner: <NemesisDownfallBanner />,
+        shouldRender: true,
+        banner: <PancakeProtectorBanner />,
       },
       {
         shouldRender: false,
