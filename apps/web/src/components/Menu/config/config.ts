@@ -159,8 +159,12 @@ const config: (
       hideSubNav: true,
       items: [
         {
-          label: t('Info'),
-          href: '/info/v3',
+          label: t('Market'),
+          href: '/info',
+        },
+        {
+          label: t('CARIB'),
+          href: '/info/v3/tokens/0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8',
         },
         
         {
