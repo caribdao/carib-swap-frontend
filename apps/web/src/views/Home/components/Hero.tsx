@@ -31,6 +31,7 @@ const InnerWrapper = styled.div`
 
 const BunnyWrapper = styled.div`
   width: 100%;
+  text-align: center;
   > span {
     overflow: visible !important; // make sure the next-image pre-build blur image not be cropped
   }
@@ -87,7 +88,7 @@ const VideoWrapper = styled.div`
   position: absolute;
 `
 
-const CakeVideo = styled.video``
+// const CakeVideo = styled.video``
 
 const CakeCanvas = styled.canvas`
   position: absolute;
@@ -268,9 +269,6 @@ const Hero = () => {
         >
           <BunnyWrapper>        
             <CakeBox>
-
-              <img src="/images/caribswap/space1_trans.png" alt="StarBunny" />
-              
               <CakeCanvas
                 className={isIOS || isMobile ? 'is-ios' : undefined}
                 width={isIOS || isMobile ? 500 : width}
@@ -280,13 +278,15 @@ const Hero = () => {
               {!(isIOS || isMobile) && (
                <VideoWrapper> 
                   
-                  <CakeVideo ref={videoRef} width={width} autoPlay muted playsInline>
-                    {/* <source src="/images/caribswap/space1_trans.png" type="image/png" />   */}
-                  </CakeVideo>
+                  {/*  <CakeVideo ref={videoRef} width={width} autoPlay muted playsInline>
+                    <source src="/images/caribswap/space1_trans.png" type="image/png" />   
+                   </CakeVideo> */}
                   
                 </VideoWrapper>  
               
               )}
+
+               <img src="/images/caribswap/space1_trans.png" alt="StarBunny" />
               
             </CakeBox>
           </BunnyWrapper>
