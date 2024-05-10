@@ -275,9 +275,9 @@ const Hero = () => {
                 ref={canvasRef}
               />
               {!(isIOS || isMobile) && (
-                <VideoWrapper>
+            {/* <VideoWrapper>
                   <CakeVideo ref={videoRef} width={width} autoPlay muted playsInline>
-        {/*         <source src={`${ASSET_CDN}/web/landing/bunnyv2.webm`} type="video/webm" />   */}
+                    <source src={`${ASSET_CDN}/web/landing/bunnyv2.webm`} type="video/webm" />   
                   </CakeVideo>
                   <CakeVideo ref={starVideoRef} width={width} autoPlay loop muted playsInline>
                     <source src={`${ASSET_CDN}/web/landing/star.webm`} type="video/webm" />
@@ -294,7 +294,9 @@ const Hero = () => {
                   <CakeVideo ref={rock03VideoRef} width={width} autoPlay loop muted playsInline>
                     <source src={`${ASSET_CDN}/web/landing/rock03.webm`} type="video/webm" />
                   </CakeVideo>
-                </VideoWrapper>
+                </VideoWrapper> */}
+                  
+                <source src={`apps/web/public/images/caribswap/space1_trans.png`} type="image/png" />
               )}
             </CakeBox>
           </BunnyWrapper>
