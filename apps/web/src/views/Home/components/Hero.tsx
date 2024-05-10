@@ -268,6 +268,9 @@ const Hero = () => {
         >
           <BunnyWrapper>        
             <CakeBox>
+
+              <img src="/images/caribswap/space1_trans.png" alt="StarBunny" />
+              
               <CakeCanvas
                 className={isIOS || isMobile ? 'is-ios' : undefined}
                 width={isIOS || isMobile ? 500 : width}
@@ -281,8 +284,6 @@ const Hero = () => {
                     {/* <source src="/images/caribswap/space1_trans.png" type="image/png" />   */}
                   </CakeVideo>
                   
-                   <img src="/images/caribswap/space1_trans.png" alt="StarBunny" />
-                 
                 </VideoWrapper>  
               
               )}
