@@ -281,12 +281,14 @@ const Hero = () => {
                   {/*  <CakeVideo ref={videoRef} width={width} autoPlay muted playsInline>
                     <source src="/images/caribswap/space1_trans.png" type="image/png" />   
                    </CakeVideo> */}
+
+                 <img src="/images/caribswap/space1_trans.png" alt="StarBunny" />
                   
                 </VideoWrapper>  
               
               )}
 
-               <img src="/images/caribswap/space1_trans.png" alt="StarBunny" />
+               
               
             </CakeBox>
           </BunnyWrapper>
