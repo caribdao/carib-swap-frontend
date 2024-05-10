@@ -9,7 +9,7 @@ import { useLayoutEffect, useRef } from 'react'
 import { styled } from 'styled-components'
 import { useAccount } from 'wagmi'
 import { useDrawCanvas } from '../hooks/useDrawCanvas'
-import { useDrawSequenceImages } from '../hooks/useDrawSequence'
+// import { useDrawSequenceImages } from '../hooks/useDrawSequence'
 import { checkIsIOS, useIsIOS } from '../hooks/useIsIOS'
 import { SlideSvgDark, SlideSvgLight } from './SlideSvg'
 
@@ -149,7 +149,7 @@ const Hero = () => {
       }
     },
     [starVideoRef, cakeVideoRef, rock01VideoRef, rock02VideoRef, rock03VideoRef],
-  )
+  )  
 
   useLayoutEffect(() => {
     starVideoRef.current?.play()
@@ -165,7 +165,7 @@ const Hero = () => {
     }
   }, [])
 
-  const { drawSequenceImage, playing } = useDrawSequenceImages(
+ /* const { drawSequenceImage, playing } = useDrawSequenceImages(
     `${ASSET_CDN}/web/landing/hero-sequence`,
     checkIsIOS() || isMobile ? 70 : 0,
     canvasRef,
@@ -180,7 +180,7 @@ const Hero = () => {
       }
     },
     true,
-  )
+  ) */
 
   return (
     <>
