@@ -265,6 +265,7 @@ const Hero = () => {
           flex={[null, null, null, '1']}
           mb={['24px', null, null, '0']}
           position="relative"
+          textAlign="center"
         >
           <BunnyWrapper>        
             <CakeBox>
