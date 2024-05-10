@@ -278,7 +278,8 @@ const Hero = () => {
                 ref={canvasRef}
               />
               {!(isIOS || isMobile) && (
-                {/* <VideoWrapper>
+               <VideoWrapper> 
+                   {/*
                   <CakeVideo ref={videoRef} width={width} autoPlay muted playsInline>
                     <source src="/images/caribswap/space1_trans.png" type="image/png" />   
                   </CakeVideo>
@@ -297,7 +298,8 @@ const Hero = () => {
                   <CakeVideo ref={rock03VideoRef} width={width} autoPlay loop muted playsInline>
                     <source src={`${ASSET_CDN}/web/landing/rock03.webm`} type="video/webm" />
                   </CakeVideo>
-                </VideoWrapper>  */}
+                  */}
+                </VideoWrapper>  
               
               )}
               
