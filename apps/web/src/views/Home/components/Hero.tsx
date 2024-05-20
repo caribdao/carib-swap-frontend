@@ -31,6 +31,7 @@ const InnerWrapper = styled.div`
 
 const BunnyWrapper = styled.div`
   width: 100%;
+  margin: auto;
   > span {
     overflow: visible !important; // make sure the next-image pre-build blur image not be cropped
   }
