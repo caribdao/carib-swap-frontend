@@ -116,7 +116,7 @@ const config: (
       
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {
+ /* {
       label: t('CARIB'),
       icon: CaribLogoIcon,
       hideSubNav: true,
@@ -129,8 +129,8 @@ const config: (
         },
        
       ].map((item) => addMenuItemSupported(item, chainId)),
-    },    
-    {
+    },   */ 
+   /* {
       label: t('Game'),
       icon: PancakeProtectorIcon,
       hideSubNav: true,
@@ -143,7 +143,7 @@ const config: (
         },
        
       ].map((item) => addMenuItemSupported(item, chainId)),
-    },    
+    },    */
    /*  {
       label: t('NFT'),
       href: `${nftsBaseUrl}`,
@@ -183,8 +183,8 @@ const config: (
           href: '/info',
         },
         {
-          label: t('CARIB'),
-          href: '/info/v3/tokens/0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8',
+          label: t('CARIB-CAKE'),
+          href: '/info/pairs/0x4ec411247c357d0fa1636a0cfe2a5d6256295568',
         },
         
         {
