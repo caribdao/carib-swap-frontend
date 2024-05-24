@@ -150,7 +150,7 @@ const Footer = () => {
               <Button
                 scale="md"
                 style={{ borderRadius: isXs ? 12 : undefined }}
-                variant={!account ? 'secondary' : 'primary'}
+                variant={'primary'}
               >
                 {t('Join Now')}
               </Button>
