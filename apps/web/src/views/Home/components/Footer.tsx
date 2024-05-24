@@ -1,6 +1,7 @@
 import { useTranslation } from '@pancakeswap/localization'
 import { Box, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import ConnectWalletButton from 'components/ConnectWalletButton'
+// import ConnectWalletButton from 'components/ConnectWalletButton'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { keyframes, styled } from 'styled-components'
 import { useAccount } from 'wagmi'
@@ -141,9 +142,19 @@ const Footer = () => {
 
       <Wrapper>
         <Text mb="24px" fontWeight={600} color="#F4EEFF" textAlign="center" fontSize={isMobile ? 32 : 40}>
-          {t("Powered by Everyone's Favorite DEX!")}
+          {t("Join the Community on Discord!")}
         </Text>
-        {!account && <ConnectWalletButton mt="24px" />}
+        {/* {!account && <ConnectWalletButton mt="24px" />} */}
+              
+            <NextLinkFromReactRouter to="https://discord.caribdao.com">
+              <Button
+                scale="md"
+                style={{ borderRadius: isXs ? 12 : undefined }}
+                variant={!account ? 'secondary' : 'primary'}
+              >
+                {t('Join Now')}
+              </Button>
+            </NextLinkFromReactRouter>
       </Wrapper>
     </Box>
   )
