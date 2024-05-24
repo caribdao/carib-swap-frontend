@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Button, Box, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 // import ConnectWalletButton from 'components/ConnectWalletButton'
 import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
