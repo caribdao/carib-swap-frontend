@@ -129,7 +129,7 @@ const Wrapper = styled(Flex)`
 const Footer = () => {
   const { t } = useTranslation()
   const { address: account } = useAccount()
-  const { isMobile } = useMatchBreakpoints()
+  const { isMobile, isXs } = useMatchBreakpoints()
 
   return (
     <Box>
