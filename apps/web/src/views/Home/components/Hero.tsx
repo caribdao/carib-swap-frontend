@@ -62,7 +62,7 @@ const CakeBox = styled.div`
   ${({ theme }) => theme.mediaQueries.md} {
     > canvas {
       transform: scale(0.6) translate(-50%, -50%);
-      transform-origin: top left;
+      transform-origin: top center;
       &.is-ios {
         transform: scale(1) translate(-50%, -50%);
       }
