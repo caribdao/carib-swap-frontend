@@ -73,18 +73,18 @@ const config: (
         
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    /* {
+    {
       label: t('Buy'),
-      href: '/buy-crypto',
+      href: 'https://caribdao.com/buy',
       icon: ShoppingBasketIcon,
       fillIcon: ShoppingBasketFilledIcon,
       items: [
         {
           label: t('Buy Crypto'),
-          href: '/buy-crypto',
+          href: 'https://caribdao.com/buy',
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
-    },  */
+    },  
     {
       label: t('Earn'),
       href: '/farms',
