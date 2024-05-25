@@ -38,7 +38,8 @@ const OnBoardingView = ({ isRegistered }: IOnBoardingProps) => {
             {t('Notifications From CARIB Swap')}
           </Text>
           <Text fontSize="16px" textAlign="center" color="textSubtle">
-            {onBoardingDescription}
+            {/* {onBoardingDescription}  */}
+            {t('Get started with notifications from CARIB Swap. First authorize notifications by signing with your wallet')}
           </Text>
         </FlexGap>
       </div>
