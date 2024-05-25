@@ -57,6 +57,7 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
   const { balance: wNativeBalance, fetchStatus: wNativeFetchStatus } = useTokenBalance(wNativeToken?.address as Address)
   const { balance: wBNBBalance, fetchStatus: wBNBFetchStatus } = useTokenBalance(wBNBToken?.address, true)
   const { balance: cakeBalance, fetchStatus: cakeFetchStatus } = useBSCCakeBalance()
+  const { balance: caribBalance, fetchStatus: caribFetchStatus } = useTokenBalance('0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8', true)
   const [mobileTooltipShow, setMobileTooltipShow] = useState(false)
   const { logout } = useAuth()
 
@@ -235,6 +236,14 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
             <Skeleton height="22px" width="60px" />
           ) : (
             <Text>{formatBigInt(cakeBalance, 3)}</Text>
+          )}
+        </Flex>
+        <Flex alignItems="center" justifyContent="space-between">
+          <Text color="textSubtle">{t('CARIB Balance')}</Text>
+          {cakeFetchStatus !== FetchStatus.Fetched ? (
+            <Skeleton height="22px" width="60px" />
+          ) : (
+            <Text>{formatBigInt(caribBalance, 3)}</Text>
           )}
         </Flex>
       </Box>
