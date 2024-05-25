@@ -100,6 +100,11 @@ const config: (
           supportChainIds: SUPPORT_FARMS,
         },
         {
+          label: t('Pools'),
+          href: '/pools',
+          supportChainIds: POOL_SUPPORTED_CHAINS,
+        },
+        {
           label: t('CARIB-CAKE LP'),
           href: '/v2/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8',
           supportChainIds: SUPPORT_CAKE_STAKING,
@@ -110,9 +115,9 @@ const config: (
           supportChainIds: SUPPORT_CAKE_STAKING,
         },
         {
-          label: t('Pools'),
-          href: '/pools',
-          supportChainIds: POOL_SUPPORTED_CHAINS,
+          label: t('CARIB Vote'),
+          href: 'https://app.dexe.io/dao/0x04a7419d62320256ebdf59cb7d28ace7e9f3f544/about',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       
       ].map((item) => addMenuItemSupported(item, chainId)),
