@@ -244,7 +244,7 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
             <Skeleton height="22px" width="60px" />
           ) : (
             // <Text>{formatBigInt(caribBalance, 3)}</Text>
-            <Text>{getFullDisplayBalance(caribBalance, wBNBToken.decimals, 6)}</Text>
+            <Text>{getFullDisplayBalance(caribBalance, 8, 3)}</Text>
           )}
         </Flex>
       </Box>
