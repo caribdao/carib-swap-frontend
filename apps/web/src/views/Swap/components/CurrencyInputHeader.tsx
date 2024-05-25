@@ -118,7 +118,7 @@ const CurrencyInputHeader: React.FC<React.PropsWithChildren<Props>> = memo(
                 display="flex"
                 style={{ justifyContent: 'center' }}
               >
-                <InternalLink href="/buy-crypto" data-dd-action-name="Swap buy crypto button">
+                <InternalLink href="https://caribdao.com/buy" data-dd-action-name="Swap buy crypto button">
                   <Image src={BuyCryptoIcon} alt="#" style={{ justifyContent: 'center' }} />
                 </InternalLink>
               </TooltipText>
