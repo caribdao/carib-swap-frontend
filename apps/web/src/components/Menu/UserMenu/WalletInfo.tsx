@@ -243,7 +243,8 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
           {caribFetchStatus !== FetchStatus.Fetched ? (
             <Skeleton height="22px" width="60px" />
           ) : (
-            <Text>{formatBigInt(caribBalance, 3)}</Text>
+            // <Text>{formatBigInt(caribBalance, 3)}</Text>
+            <Text>{getFullDisplayBalance(caribBalance, wBNBToken.decimals, 6)}</Text>
           )}
         </Flex>
       </Box>
