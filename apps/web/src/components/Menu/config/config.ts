@@ -82,6 +82,7 @@ const config: (
         {
           label: t('Buy Crypto'),
           href: 'https://caribdao.com/buy',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },  
