@@ -29,15 +29,15 @@ const StyledLink = styled("a")`
   .logoText {
     margin-top: 10px;
     margin-bottom: 10px;
-    display: flex;
+    display: none;
     justify-self: flex-end;
     text-align: center;
     margin-left: 10px;
     color: #AC8CCC;
 
      ${({ theme }) => theme.mediaQueries.xl} {
-      display: none;
-     }
+      display: flex;
+    }
   }
   .eye {
     animation-delay: 20ms;
