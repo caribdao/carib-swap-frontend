@@ -356,7 +356,7 @@ export default function PoolListPage() {
           )}
         </Body>
         <CardFooter style={{ textAlign: 'center' }}>
-          <NextLink href="/add" passHref>
+          <NextLink href="/v2/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8" passHref>
             <Button id="join-pool-button" width="100%" startIcon={<AddIcon color="invertedContrast" />}>
               {t('Add Liquidity')}
             </Button>
