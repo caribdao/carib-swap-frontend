@@ -1,17 +1,17 @@
 import { DefaultSeoProps } from 'next-seo'
 
 export const SEO: DefaultSeoProps = {
-  titleTemplate: '%s | PancakeSwap',
-  defaultTitle: 'PancakeSwap',
-  description: 'Trade, earn, and own crypto on the all-in-one multichain DEX',
+  titleTemplate: '%s | CARIB Swap',
+  defaultTitle: 'CARIB Swap',
+  description: 'Trade, earn, and own crypto on a Caribbean-flavored multichain DEX',
   twitter: {
     cardType: 'summary_large_image',
-    handle: '@PancakeSwap',
-    site: '@PancakeSwap',
+    handle: '@CaribDAO',
+    site: '@CaribDAO',
   },
   openGraph: {
-    title: "🥞 PancakeSwap Aptos - Everyone's Favorite DEX",
-    description: 'Trade, earn, and own crypto on the all-in-one multichain DEX',
+    title: "🌊 CARTIB Swap Aptos - A Caribbean-flavored DEX",
+    description: 'Trade, earn, and own crypto on a Caribbean-flavored multichain DEX',
     images: [{ url: 'https://aptos.pancakeswap.finance/images/hero.jpeg' }],
   },
 }
