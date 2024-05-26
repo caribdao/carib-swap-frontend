@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { keyframes, styled } from "styled-components";
 import Flex from "../../../components/Box/Flex";
-import { LogoIcon, LogoWithTextIcon } from "../../../components/Svg";
+// import { LogoIcon, LogoWithTextIcon } from "../../../components/Svg";
 import { MenuContext } from "../context";
 
 interface Props {
@@ -22,11 +22,18 @@ const StyledLink = styled("a")`
     }
   }
   .desktop-icon {
-    width: 160px;
     display: none;
     ${({ theme }) => theme.mediaQueries.xl} {
       display: block;
     }
+  }
+  .logoText {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-self: flex-end;
+    text-align: center;
+    margin-left: 10px;
   }
   .eye {
     animation-delay: 20ms;
@@ -46,8 +53,9 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <img src="/images/caribswap/logo.png" width="64px" height="32px" alt="logo" />
-      <span className="logoText"> &nbsp; </span> 
+      <img src="/images/caribswap/logo.png" className="desktop-icon" width="64px" height="32px" alt="logo" />
+      <img src="/images/caribswap/logo.png" className="mobile-icon" width="64px" height="32px" alt="logo" />
+      <span className="logoText">CARIB Swap</span> 
     </>
   );
 
