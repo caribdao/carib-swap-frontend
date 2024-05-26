@@ -34,6 +34,7 @@ const StyledLink = styled("a")`
     justify-self: flex-end;
     text-align: center;
     margin-left: 10px;
+    color: #AC8CCC;
   }
   .eye {
     animation-delay: 20ms;
