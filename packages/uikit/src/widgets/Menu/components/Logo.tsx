@@ -16,7 +16,6 @@ const blink = keyframes`
 const StyledLink = styled("a")`
   display: flex;
   .mobile-icon {
-    width: 32px;
     ${({ theme }) => theme.mediaQueries.xl} {
       display: none;
     }
@@ -35,6 +34,10 @@ const StyledLink = styled("a")`
     text-align: center;
     margin-left: 10px;
     color: #AC8CCC;
+
+     ${({ theme }) => theme.mediaQueries.xl} {
+      display: none;
+    }
   }
   .eye {
     animation-delay: 20ms;
@@ -54,8 +57,7 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <img src="/images/caribswap/logo.png" className="desktop-icon" width="64px" height="32px" alt="logo" />
-      <img src="/images/caribswap/logo.png" className="mobile-icon" width="64px" height="32px" alt="logo" />
+      <img src="/images/caribswap/logo.png" width="64px" height="32px" alt="logo" />
       <span className="logoText">CARIB Swap</span> 
     </>
   );
