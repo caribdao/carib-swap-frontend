@@ -37,7 +37,7 @@ const StyledLink = styled("a")`
 
      ${({ theme }) => theme.mediaQueries.xl} {
       display: none;
-    }
+     }
   }
   .eye {
     animation-delay: 20ms;
