@@ -60,7 +60,7 @@ const config: (
       icon: SwapIcon,
       fillIcon: SwapFillIcon,
       href: '/swap?outputCurrency=0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8',
-      showItemsOnMobile: false,
+      // showItemsOnMobile: false,
       items: [
         {
           label: t('Swap'),
@@ -192,7 +192,11 @@ const config: (
           label: t('CARIB-CAKE'),
           href: '/info/pairs/0x4ec411247c357d0fa1636a0cfe2a5d6256295568',
         },
-        
+        {
+          label: t('Events'),
+          href: 'https://link3.to/carib',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
         {
           label: t('Blog'),
           href: 'https://peakd.com/@caribdao',
