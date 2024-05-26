@@ -4,8 +4,8 @@ import { ASSET_CDN } from './endpoints'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'PancakeSwap',
-  description: 'Trade, earn, and own crypto on the all-in-one multichain DEX',
+  title: 'CARIB Swap',
+  description: 'Trade, earn, and own crypto on a Caribbean-flavored multichain DEX',
   image: `${ASSET_CDN}/web/og/hero.jpg`,
 }
 
