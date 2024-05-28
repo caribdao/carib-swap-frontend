@@ -22,7 +22,7 @@ const Page: React.FC<
   const { t } = useTranslation()
   const { chainId } = useActiveChainId()
   const isBSC = chainId === ChainId.BSC
-  const externalText = isBSC ? t('Let your CARIB work for you!') : ''
+  const externalText = isBSC ? t('Let your CARIB work for you') : ''
   const externalLinkUrl = isBSC ? 'https://caribdao.com/earn' : ''
 
   return (
