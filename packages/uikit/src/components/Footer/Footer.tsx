@@ -107,6 +107,9 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
            <Box mr="20px">
               <CakePrice chainId={chainId} cakePriceUsd={cakePriceUsd} color="textSubtle" />
             </Box>  
+            <Box mr="20px">
+              <CakePrice chainId={chainId} cakePriceUsd={cakePriceUsd} color="textSubtle" />
+            </Box>  
             <Button
               data-theme="dark"
               as="a"
