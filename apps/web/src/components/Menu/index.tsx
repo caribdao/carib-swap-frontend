@@ -8,6 +8,7 @@ import { NetworkSwitcher } from 'components/NetworkSwitcher'
 import PhishingWarningBanner from 'components/PhishingWarningBanner'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useCakePrice } from 'hooks/useCakePrice'
+import { useCaribPrice } from 'hooks/useCaribPrice'
 import { usePerpUrl } from 'hooks/usePerpUrl'
 import useTheme from 'hooks/useTheme'
 import { IdType, useUserNotUsCitizenAcknowledgement } from 'hooks/useUserIsUsCitizenAcknowledgement'
@@ -32,6 +33,7 @@ const Menu = (props) => {
   const { chainId } = useActiveChainId()
   const { isDark, setTheme } = useTheme()
   const cakePrice = useCakePrice()
+  const caribPrice = useCaribPrice()
   const { currentLanguage, setLanguage, t } = useTranslation()
   const { pathname } = useRouter()
   const perpUrl = usePerpUrl({ chainId, isDark, languageCode: currentLanguage.code })
@@ -46,7 +48,7 @@ const Menu = (props) => {
   )
   const [onOptionsConfirmModalPresent] = useModal(
     <USCitizenConfirmModal
-      title={t('PancakeSwap Options')}
+      title={t('CARIB Swap Options')}
       id={IdType.OPTIONS}
       href={getOptionsUrl()}
       desc={
@@ -120,13 +122,18 @@ const Menu = (props) => {
         langs={languageList}
         setLang={setLanguage}
         cakePriceUsd={cakePrice.eq(BIG_ZERO) ? undefined : cakePrice}
+        caribPriceUsd={caribPrice.eq(BIG_ZERO) ? undefined : caribPrice}
         links={menuItems}
         subLinks={activeMenuItem?.hideSubNav || activeSubMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
         // footerLinks={getFooterLinks}
         activeItem={activeMenuItem?.href}
         activeSubItem={activeSubMenuItem?.href}
-        buyCakeLabel={t('Buy CARIB')}
-        buyCakeLink="https://caribdao.com/buy"
+        buyCakeLabel={t('Buy CAKE')}
+        buyCakeLink="/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        buyCaribLabel={t('Buy CARIB')}
+        buyCaribLink="https://caribdao.com/buy"
+
+
         {...props}
       />
     </>
