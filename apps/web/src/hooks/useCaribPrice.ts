@@ -1,7 +1,7 @@
 import { ChainId } from '@pancakeswap/chains'
 import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
 // import { chainlinkOracleCAKE } from '@pancakeswap/prediction'
-import { getTokenPrice } from '../../../packages/smart-router/evm/v3-router/utils/pool'
+import { getTokenPrice } from '../../../../packages/smart-router/evm/v3-router/utils/pool'
 import BigNumber from 'bignumber.js'
 import { chainlinkOracleABI } from 'config/abi/chainlinkOracle'
 import { publicClient } from 'utils/wagmi'
