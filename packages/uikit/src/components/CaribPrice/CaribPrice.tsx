@@ -7,7 +7,7 @@ import { Colors } from "../../theme";
 
 export interface Props {
   color?: keyof Colors;
-  cakePriceUsd?: number;
+  caribPriceUsd?: number;
   showSkeleton?: boolean;
   chainId: number;
 }
@@ -25,23 +25,23 @@ const PriceLink = styled.a`
   }
 `;
 
-const CakePrice: React.FC<React.PropsWithChildren<Props>> = ({
-  cakePriceUsd,
+const CaribPrice: React.FC<React.PropsWithChildren<Props>> = ({
+  caribPriceUsd,
   color = "textSubtle",
   showSkeleton = true,
   chainId,
 }) => {
-  return cakePriceUsd ? (
+  return caribPriceUsd ? (
      <PriceLink
-      href={`https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=${chainId}`}
+      href={`/swap?outputCurrency=0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8&chainId=${chainId}`}
       target="_blank"
     >
       <LogoRound width="24px" mr="8px" />
-      <Text color={color} bold>{` $${cakePriceUsd.toFixed(3)}`}</Text>
+      <Text color={color} bold>{` $${caribPriceUsd.toFixed(3)}`}</Text>
     </PriceLink> 
   ) : showSkeleton ? (
      <Skeleton width={80} height={24} />  
   ) : null;
 };
 
-export default React.memo(CakePrice);
+export default React.memo(CaribPrice);
