@@ -23,7 +23,7 @@ export const useCaribPrice = ({ enabled = true } = {}) => {
 export const getCaribPriceFromOracle = async () => {
   const data = await publicClient({ chainId: ChainId.BSC }).readContract({
     abi: chainlinkOracleABI,
-    address: 0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8,
+    address: '0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8',
     functionName: 'latestAnswer',
   })
 
