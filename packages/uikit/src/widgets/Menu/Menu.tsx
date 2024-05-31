@@ -7,6 +7,7 @@ import BottomNav from "../../components/BottomNav";
 import { Box } from "../../components/Box";
 import Flex from "../../components/Box/Flex";
 import CakePrice from "../../components/CakePrice/CakePrice";
+import CaribPrice from "../../components/CaribPrice/CaribPrice";
 import Footer from "../../components/Footer";
 import LangSelector from "../../components/LangSelector/LangSelector";
 import MenuItems from "../../components/MenuItems/MenuItems";
@@ -79,6 +80,7 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
   currentLang,
   setLang,
   cakePriceUsd,
+  caribPriceUsd,
   links,
   subLinks,
   footerLinks,
@@ -87,6 +89,8 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
   langs,
   buyCakeLabel,
   buyCakeLink,
+  buyCaribLabel,
+  buyCaribLink,
   children,
   chainId,
 }) => {
@@ -205,8 +209,11 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
         setLang={setLang}
         currentLang={currentLang}
         cakePriceUsd={cakePriceUsd}
+        caribPriceUsd={caribPriceUsd}
         buyCakeLabel={buyCakeLabel}
         buyCakeLink={buyCakeLink}
+        buyCaribLabel={buyCaribLabel}
+        buyCaribLink={buyCaribLink}
         mb={[`${MOBILE_MENU_HEIGHT}px`, null, "0px"]}
       />
       <AtomBox display={{ xs: "block", lg: "none" }}>
