@@ -108,9 +108,9 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
             />
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
-           <Box mr="20px">
+            {/* <Box mr="20px">
               <CakePrice chainId={chainId} cakePriceUsd={cakePriceUsd} color="textSubtle" />
-            </Box>  
+            </Box>  */}
             <Box mr="20px">
               <CaribPrice chainId={chainId} caribPriceUsd={caribPriceUsd} color="textSubtle" />
             </Box>  
