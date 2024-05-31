@@ -161,6 +161,9 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
             {/* <AtomBox mr="12px" display={{ xs: "none", xxl: "block" }}>
                   <CakePrice chainId={chainId} showSkeleton={false} cakePriceUsd={cakePriceUsd} />
                 </AtomBox>   */}
+                <AtomBox mr="12px" display={{ xs: "none", xxl: "block" }}>
+                  <CaribPrice chainId={chainId} showSkeleton={false} caribPriceUsd={caribPriceUsd} />
+                </AtomBox>  
                 <Box mt="4px">
                   <LangSelector
                     currentLang={currentLang}
