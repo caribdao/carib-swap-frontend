@@ -1,21 +1,21 @@
 import React from "react";
-import { CakePrice, CakePriceProps } from ".";
+import { CaribPrice, CaribPriceProps } from ".";
 import { Flex } from "../Box";
 
 export default {
-  title: "Components/CakePrice",
-  component: CakePrice,
+  title: "Components/CaribPrice",
+  component: CaribPrice,
 };
 
-const Template: React.FC<React.PropsWithChildren<CakePriceProps>> = ({ ...args }) => {
+const Template: React.FC<React.PropsWithChildren<CaribPriceProps>> = ({ ...args }) => {
   return (
     <Flex p="10px">
-      <CakePrice {...args} />
+      <CaribPrice {...args} />
     </Flex>
   );
 };
 
 export const Default = Template.bind({});
 Default.args = {
-  cakePriceUsd: 20.0,
+  caribPriceUsd: 20.0,
 };
