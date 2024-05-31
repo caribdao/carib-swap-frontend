@@ -22,9 +22,12 @@ export interface NavProps {
   isDark: boolean;
   toggleTheme: (isDark: boolean) => void;
   cakePriceUsd?: number;
+  caribPriceUsd?: number;
   currentLang: string;
   buyCakeLabel: string;
   buyCakeLink: string;
+  buyCaribLabel: string;
+  buyCaribLink: string;
   langs: Language[];
   chainId: number;
   setLang: (lang: Language) => void;
