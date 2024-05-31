@@ -16,6 +16,7 @@ import {
 import { vars } from "../../css/vars.css";
 import { Button } from "../Button";
 import CakePrice from "../CakePrice/CakePrice";
+import CaribPrice from "../CaribPrice/CaribPrice";
 import LangSelector from "../LangSelector/LangSelector";
 import { ArrowForwardIcon, LogoIcon, LogoWithTextIcon } from "../Svg";
 import { ThemeSwitcher } from "../ThemeSwitcher";
@@ -29,8 +30,11 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
   langs,
   setLang,
   cakePriceUsd,
+  caribPriceUsd,
   buyCakeLabel,
+  buyCaribLabel,
   buyCakeLink,
+  buyCaribLink,
   chainId,
   ...props
 }) => {
@@ -108,17 +112,17 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
               <CakePrice chainId={chainId} cakePriceUsd={cakePriceUsd} color="textSubtle" />
             </Box>  
             <Box mr="20px">
-              <CakePrice chainId={chainId} cakePriceUsd={cakePriceUsd} color="textSubtle" />
+              <CaribPrice chainId={chainId} caribPriceUsd={caribPriceUsd} color="textSubtle" />
             </Box>  
             <Button
               data-theme="dark"
               as="a"
-              href={buyCakeLink}
+              href={buyCaribLink}
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color="backgroundAlt" />}
             >
-              {buyCakeLabel}
+              {buyCaribLabel}
             </Button>
           </Flex>
         </StyledToolsContainer>
