@@ -286,10 +286,10 @@ const Hero = () => {
               
               )}
               
-              <>
+              {/* <>
               <img src="/images/caribswap/space1_trans.png" alt="StarBunny" />
               </>
-              
+              */}
             </CakeBox>
           </BunnyWrapper>
         </Flex>
