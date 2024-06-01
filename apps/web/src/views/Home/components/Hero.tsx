@@ -217,7 +217,7 @@ const Hero = () => {
         id="homepage-hero"
       >
         <Flex flex="1" flexDirection="column">
-           <style>
+           <style jsx global>
               {`
                 [data-theme='dark'] {
                   background: rgba(0, 0, 0, 0.5);
