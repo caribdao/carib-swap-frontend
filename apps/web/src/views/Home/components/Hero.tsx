@@ -216,16 +216,7 @@ const Hero = () => {
         pl={['0px', '0px', '0px', '30px']}
         id="homepage-hero"
       >
-        <Flex flex="1" flexDirection="column">
-           <style jsx global>
-              {`
-                [data-theme='dark'] {
-                  background: rgba(0, 0, 0, 0.5);
-                  padding: 20px;
-                  border-radius: 20px;
-                }
-              `}
-            </style>
+        <Flex flex="1" flexDirection="column" background={data-theme='dark' ? "rgba(0, 0, 0, 0.5)"}>
           <Text textAlign={isMobile || isMd ? 'center' : 'left'} pr={isMobile ? 0 : '10px'} mb="16px">
             <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text" mr="8px">
               {t("We")}
