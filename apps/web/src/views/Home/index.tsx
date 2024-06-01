@@ -43,7 +43,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
           }
           [data-theme='dark'] #home-1 .page-bg {
             // background: radial-gradient(103.12% 50% at 50% 50%, #21193a 0%, #191326 100%);
-            background-image: url('/images/caribswap/backgrounds/temphome.jpg');
+            background-image: url('/images/caribswap/backgrounds/exchange.jpg');
             background-size: cover;
           }
           #home-2 .page-bg {
