@@ -61,7 +61,7 @@ const Pools: React.FC<React.PropsWithChildren> = () => {
               {t('Just stake some tokens to earn.')}
             </Heading>
             <Heading scale="md" color="text">
-              {t('High APR, low risk.')}
+              {t('High APR, low risk, and Powered by PancakeSwap.')}
             </Heading>
           </Flex>
           <VeCakeFourYearCard />
