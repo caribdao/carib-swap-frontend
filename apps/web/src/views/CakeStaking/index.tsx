@@ -80,9 +80,9 @@ const CakeStaking = () => {
       </StyledPageHeader>
       <Page title={t('CAKE Staking')}>
         <Heading scale="xl" mb={['24px', '24px', '48px']} mt={['16px', '16px', 0]}>
-          {t('And So Much More...')}
+          {t("Powered by Everyone's Favorite DEX!")}
         </Heading>
-        <Grid
+        {/* <Grid
           maxWidth="820px"
           gridGap="24px"
           gridTemplateColumns={isDesktop ? 'repeat(2, 1fr)' : '1fr'}
@@ -132,7 +132,7 @@ const CakeStaking = () => {
             dataText={`$${formatAmount(totalIFOSold, { notation: 'standard' })}`}
           />
           <BenefitCard type="more" />
-        </Grid>
+        </Grid> */}
       </Page>
     </>
   )
