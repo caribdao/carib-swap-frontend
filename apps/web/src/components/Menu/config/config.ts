@@ -106,7 +106,7 @@ const config: (
         }, */
         {
           label: t('CARIB-CAKE LP'),
-          href: '/v2/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8',
+          href: '/v2/pair/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8',
           supportChainIds: SUPPORT_CAKE_STAKING,
         },
         {
@@ -184,7 +184,7 @@ const config: (
       items: [],
     },    */ 
     {
-      label: '',
+      label: 'Info',
       href: '/info',
       icon: MoreIcon,
       hideSubNav: true,
