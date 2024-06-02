@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Grid, Heading, ModalV2, PageHeader, QuestionHelper, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Grid, Heading, ModalV2, PageHeader, QuestionHelper, useMatchBreakpoints, Button, ArrowForwardIcon, Text } from '@pancakeswap/uikit'
 import { formatBigInt, formatNumber } from '@pancakeswap/utils/formatBalance'
 import { formatAmount } from '@pancakeswap/utils/formatInfoNumbers'
 import Page from 'components/Layout/Page'
@@ -14,7 +14,6 @@ import { PageHead } from './components/PageHead'
 import { useGaugesVotingCount } from './hooks/useGaugesVotingCount'
 import { useSnapshotProposalsCount } from './hooks/useSnapshotProposalsCount'
 import { useTotalIFOSold } from './hooks/useTotalIFOSold'
-import { Button, ArrowForwardIcon, Text } from '@pancakeswap/uikit';
 
 const CakeStaking = () => {
   const { t } = useTranslation()
