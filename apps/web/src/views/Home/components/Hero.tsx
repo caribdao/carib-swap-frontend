@@ -220,7 +220,7 @@ const Hero = () => {
           id="slogan"
           flex="1" 
           flexDirection="column" 
-          background= {theme.isDark ? 'rgba(0, 0, 0, 0.3)' : ''}
+          background= {theme.isDark ? 'rgba(0, 0, 0, 0.35)' : ''}
           padding="20px"
           borderRadius="20px"
           >
