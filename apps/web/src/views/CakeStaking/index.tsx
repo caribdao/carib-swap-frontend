@@ -101,7 +101,7 @@ const CakeStaking = () => {
         <NextLinkFromReactRouter to="https://pancakeswap.finance/cake-staking">
               <Button
                 scale="md"
-                style={{ borderRadius: isXs ? 12 : undefined }}
+                // style={{ borderRadius: isXs ? 12 : undefined }}
                 endIcon={<ArrowForwardIcon color="backgroundAlt" />}
                 variant='primary'
               >
