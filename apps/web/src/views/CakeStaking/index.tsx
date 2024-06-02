@@ -84,9 +84,14 @@ const CakeStaking = () => {
         <Heading scale="xl" mb={['24px', '24px', '48px']} mt={['16px', '16px', 0]}>
           {t("Powered by Everyone's Favorite DEX!")}
         </Heading>
+        <Text color="textSubtle" lineHeight="120%" mb={['24px', '24px', '16px']}>
+          {t(
+            'Please note, this page is for monitoring purposes only.',
+          )}
+        </Text>
          <Text color="textSubtle" lineHeight="120%" mb={['24px', '24px', '48px']}>
           {t(
-            'Please note, this page is for monitoring purposes only. /n/n Carib DAO members and CARIB Swap users can monitor their veCAKE stake here; however, we highly-recommend DYOR and staking CAKE directly on PancakeSwap.',
+            'Carib DAO members and CARIB Swap users can monitor their veCAKE stake here; however, we highly-recommend DYOR and staking CAKE directly on PancakeSwap.',
           )}
         </Text>
         <NextLinkFromReactRouter to="https://pancakeswap.finance/cake-staking">
