@@ -98,59 +98,7 @@ const CakeStaking = () => {
               >
                 {t('Stake CAKE on PancakeSwap')}
               </Button>
-          </NextLinkFromReactRouter>
-        
-        {/* <Grid
-          maxWidth="820px"
-          gridGap="24px"
-          gridTemplateColumns={isDesktop ? 'repeat(2, 1fr)' : '1fr'}
-          alignItems="center"
-          mx="auto"
-        >
-          <BenefitCard
-            type="farmBoost"
-            headSlot={
-              <QuestionHelper
-                size="20px"
-                text={t(
-                  'Boost your PancakeSwap farming APR by up to 2.5x. Aquire more veCAKE to receive a higher boost.',
-                )}
-                placement="top"
-                ml="4px"
-              />
-            }
-            dataText="2.5x"
-          />
-          <BenefitCard
-            type="snapshotVoting"
-            headSlot={
-              <QuestionHelper
-                size="20px"
-                text={t(
-                  'Use veCAKE as your Snapshot voting power to vote on governance proposals. Including important protocol decisions, and adding new farming gauges.',
-                )}
-                placement="top"
-                ml="4px"
-              />
-            }
-            dataText={`${snapshotProposalsCount}`}
-          />
-          <BenefitCard
-            type="ifo"
-            headSlot={
-              <QuestionHelper
-                size="20px"
-                text={t(
-                  'Use your veCAKE as your IFO Public Sales commit credits. Aquire more veCAKE to commit more in the next PancakeSwap IFOs.',
-                )}
-                placement="top"
-                ml="4px"
-              />
-            }
-            dataText={`$${formatAmount(totalIFOSold, { notation: 'standard' })}`}
-          />
-          <BenefitCard type="more" />
-        </Grid> */}
+        </NextLinkFromReactRouter>
       </Page>
     </>
   )
