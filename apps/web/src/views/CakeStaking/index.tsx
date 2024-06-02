@@ -14,6 +14,7 @@ import { PageHead } from './components/PageHead'
 import { useGaugesVotingCount } from './hooks/useGaugesVotingCount'
 import { useSnapshotProposalsCount } from './hooks/useSnapshotProposalsCount'
 import { useTotalIFOSold } from './hooks/useTotalIFOSold'
+import { Button } from "../Button";
 
 const CakeStaking = () => {
   const { t } = useTranslation()
@@ -82,6 +83,21 @@ const CakeStaking = () => {
         <Heading scale="xl" mb={['24px', '24px', '48px']} mt={['16px', '16px', 0]}>
           {t("Powered by Everyone's Favorite DEX!")}
         </Heading>
+         <Text color="textSubtle" lineHeight="120%">
+          {t(
+            'This page is for monitoring purpose only, we highly-recommend staking CAKE directly on PancakeSwap.',
+          )}
+        </Text>
+        <Button
+              data-theme="dark"
+              as="a"
+              href="https://pancakeswap.finance/cake-staking"
+              target="_blank"
+              scale="sm"
+              endIcon={<ArrowForwardIcon color="backgroundAlt" />}
+            >
+              {t('Stake CAKE',)}
+        </Button>
         {/* <Grid
           maxWidth="820px"
           gridGap="24px"
