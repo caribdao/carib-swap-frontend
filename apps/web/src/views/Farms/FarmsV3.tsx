@@ -47,7 +47,7 @@ import { useUserFarmStakedOnly, useUserFarmsViewMode } from 'state/user/hooks'
 import { styled } from 'styled-components'
 import { getFarmApr } from 'utils/apr'
 import { getStakedFarms } from 'views/Farms/utils/getStakedFarms'
-import { BCakeMigrationBanner } from 'views/Home/components/Banners/BCakeMigrationBanner'
+// import { BCakeMigrationBanner } from 'views/Home/components/Banners/BCakeMigrationBanner'
 import { useAccount } from 'wagmi'
 import Table from './components/FarmTable/FarmTable'
 import { FarmTypesFilter } from './components/FarmTypesFilter'
@@ -430,9 +430,9 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
   return (
     <FarmsV3Context.Provider value={providerValue}>
       <PageHeader>
-        <Box mb="32px" mt="16px">
+        {/* <Box mb="32px" mt="16px">
           <BCakeMigrationBanner />
-        </Box>
+        </Box> */}
         <Flex flexDirection="column">
           <FarmFlexWrapper justifyContent="space-between">
             <Box style={{ flex: '1 1 100%' }}>
