@@ -5,7 +5,7 @@ import Text from "../Text/Text";
 import Skeleton from "../Skeleton/Skeleton";
 import { Colors } from "../../theme";
 import { getTokenPrice } from "../../../../smart-router/evm/v3-router/utils/pool";
-import { PoolType } from "../../../../smart-router/evm/v3-router/types/pool";
+import { Pool } from "../../../../smart-router/evm/v3-router/types/pool";
 
 export interface Props {
   color?: keyof Colors;
@@ -39,7 +39,7 @@ const CaribPrice: React.FC<React.PropsWithChildren<Props>> = ({
       target="_blank"
     >
       <LogoRound width="24px" mr="8px" />
-      <Text color={color} bold>{` $${getTokenPrice(V3,'0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c','0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8')}`}</Text>
+      <Text color={color} bold>{` $${getTokenPrice(V3Pool,'0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c','0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8')}`}</Text>
     </PriceLink> 
   ) : showSkeleton ? (
      <Skeleton width={80} height={24} />  
