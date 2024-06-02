@@ -88,13 +88,13 @@ const config: (
     },  
     {
       label: t('Earn'),
-      href: '/farms',
+      href: 'https://caribdao.com/earn',
       icon: EarnIcon,
       fillIcon: EarnFillIcon,
       image: '/images/decorations/pe2.png',
       supportChainIds: SUPPORT_FARMS,
       items: [
-        {
+       /* {
           label: t('Farms'),
           href: '/farms',
           supportChainIds: SUPPORT_FARMS,
@@ -103,7 +103,7 @@ const config: (
           label: t('Pools'),
           href: '/pools',
           supportChainIds: POOL_SUPPORTED_CHAINS,
-        },
+        }, */
         {
           label: t('CARIB-CAKE LP'),
           href: '/v2/add/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/0x9f8b8FE01b26957cf3dcd6FBd3675053bA2c02C8',
@@ -115,8 +115,13 @@ const config: (
           supportChainIds: SUPPORT_CAKE_STAKING,
         },
         {
-          label: t('CARIB Vote'),
+          label: t('Vote'),
           href: 'https://app.dexe.io/dao/0x04a7419d62320256ebdf59cb7d28ace7e9f3f544/about',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
+        {
+          label: t('Earn'),
+          href: 'https://caribdao.com/earn',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       
