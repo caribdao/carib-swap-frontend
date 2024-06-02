@@ -14,6 +14,7 @@ import { PageHead } from './components/PageHead'
 import { useGaugesVotingCount } from './hooks/useGaugesVotingCount'
 import { useSnapshotProposalsCount } from './hooks/useSnapshotProposalsCount'
 import { useTotalIFOSold } from './hooks/useTotalIFOSold'
+import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 const CakeStaking = () => {
   const { t } = useTranslation()
@@ -82,7 +83,7 @@ const CakeStaking = () => {
         <Heading scale="xl" mb={['24px', '24px', '48px']} mt={['16px', '16px', 0]}>
           {t("Powered by Everyone's Favorite DEX!")}
         </Heading>
-         <Text color="textSubtle" lineHeight="120%">
+         <Text color="textSubtle" lineHeight="120%" mb={['24px', '24px', '48px']} mt={['16px', '16px', 0]>
           {t(
             'This page is for monitoring purpose only, we highly-recommend staking CAKE directly on PancakeSwap.',
           )}
@@ -97,6 +98,17 @@ const CakeStaking = () => {
             >
               {t('Stake CAKE',)}
         </Button>
+        <NextLinkFromReactRouter to="https://pancakeswap.finance/cake-staking">
+              <Button
+                scale="md"
+                style={{ borderRadius: isXs ? 12 : undefined }}
+                endIcon={<ArrowForwardIcon color="backgroundAlt" />}
+                variant='primary'
+              >
+                {t('Stake CAKE on PancakeSwap')}
+              </Button>
+          </NextLinkFromReactRouter>
+        
         {/* <Grid
           maxWidth="820px"
           gridGap="24px"
