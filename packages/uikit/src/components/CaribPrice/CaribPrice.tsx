@@ -39,7 +39,7 @@ const CaribPrice: React.FC<React.PropsWithChildren<Props>> = ({
       target="_blank"
     >
       <LogoRound width="24px" mr="8px" />
-      <Text color={color} bold>{` $${getTokenPrice(V3,'0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c','0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8')}`}</Text>
+      <Text color={color} bold>{` $${getTokenPrice(PoolType.V3,'0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c','0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8')}`}</Text>
     </PriceLink> 
   ) : showSkeleton ? (
      <Skeleton width={80} height={24} />  
