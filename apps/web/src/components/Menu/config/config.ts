@@ -194,7 +194,7 @@ const config: (
           href: '/info',
         },
         {
-          label: t('CARIB-CAKE'),
+          label: t('CARIB'),
           href: '/info/pairs/0x4ec411247c357d0fa1636a0cfe2a5d6256295568',
         },
         {
