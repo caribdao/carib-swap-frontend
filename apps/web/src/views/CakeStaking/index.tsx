@@ -80,7 +80,7 @@ const CakeStaking = () => {
           />
         </Grid>
       </StyledPageHeader>
-      <Page title={t('CAKE Staking')} height="400px">
+      <Page title={t('CAKE Staking')}>
         <Heading scale="xl" mb={['24px', '24px', '48px']} mt={['16px', '16px', 0]}>
           {t("Powered by Everyone's Favorite DEX!")}
         </Heading>
