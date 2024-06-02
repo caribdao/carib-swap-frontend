@@ -199,6 +199,9 @@ const Hero = () => {
           [data-theme='dark'] .slide-svg-light {
             display: none;
           }
+           [data-theme='dark'] .slogan {
+            display: none;
+          }
         `}
       </style>
       <BgWrapper>
@@ -216,7 +219,7 @@ const Hero = () => {
         pl={['0px', '0px', '0px', '30px']}
         id="homepage-hero"
       >
-        <Flex flex="1" flexDirection="column" background="rgba(0, 0, 0, 0.2)" padding="20px" borderRadius="20px">
+        <Flex id="slogan" flex="1" flexDirection="column" background="rgba(0, 0, 0, 0.2)" padding="20px" borderRadius="20px">
           <Text textAlign={isMobile || isMd ? 'center' : 'left'} pr={isMobile ? 0 : '10px'} mb="16px">
             <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text" mr="8px">
               {t("We")}
