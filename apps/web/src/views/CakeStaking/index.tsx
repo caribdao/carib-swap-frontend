@@ -14,8 +14,7 @@ import { PageHead } from './components/PageHead'
 import { useGaugesVotingCount } from './hooks/useGaugesVotingCount'
 import { useSnapshotProposalsCount } from './hooks/useSnapshotProposalsCount'
 import { useTotalIFOSold } from './hooks/useTotalIFOSold'
-import { Button } from '@pancakeswap/uikit';
-import { Text } from '@pancakeswap/uikit'
+import { Button, ArrowForwardIcon, Text } from '@pancakeswap/uikit';
 
 const CakeStaking = () => {
   const { t } = useTranslation()
