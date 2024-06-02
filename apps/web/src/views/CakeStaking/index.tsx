@@ -14,7 +14,7 @@ import { PageHead } from './components/PageHead'
 import { useGaugesVotingCount } from './hooks/useGaugesVotingCount'
 import { useSnapshotProposalsCount } from './hooks/useSnapshotProposalsCount'
 import { useTotalIFOSold } from './hooks/useTotalIFOSold'
-import { Button } from "../Button";
+import { Button } from "../../components/Button";
 
 const CakeStaking = () => {
   const { t } = useTranslation()
