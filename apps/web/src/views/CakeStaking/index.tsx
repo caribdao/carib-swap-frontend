@@ -83,7 +83,7 @@ const CakeStaking = () => {
         <Heading scale="xl" mb={['24px', '24px', '48px']} mt={['16px', '16px', 0]}>
           {t("Powered by Everyone's Favorite DEX!")}
         </Heading>
-         <Text color="textSubtle" lineHeight="120%" mb={['24px', '24px', '48px']} mt={['16px', '16px', 0]>
+         <Text color="textSubtle" lineHeight="120%" mb={['24px', '24px', '48px']}>
           {t(
             'This page is for monitoring purpose only, we highly-recommend staking CAKE directly on PancakeSwap.',
           )}
