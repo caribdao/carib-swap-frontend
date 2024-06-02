@@ -5,6 +5,7 @@ import Text from "../Text/Text";
 import Skeleton from "../Skeleton/Skeleton";
 import { Colors } from "../../theme";
 import { getTokenPrice } from "../../../../smart-router/evm/v3-router/utils/pool";
+import { poolType } from "../../../../smart-router/evm/v3-router/types/pool";
 
 export interface Props {
   color?: keyof Colors;
