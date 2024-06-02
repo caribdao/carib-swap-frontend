@@ -4,6 +4,7 @@ import LogoRound from "../Svg/Icons/LogoRound";
 import Text from "../Text/Text";
 import Skeleton from "../Skeleton/Skeleton";
 import { Colors } from "../../theme";
+import { getTokenPrice } from "../../packages/smart-router/evm/v3-router/utils/pool";
 
 export interface Props {
   color?: keyof Colors;
@@ -37,7 +38,7 @@ const CaribPrice: React.FC<React.PropsWithChildren<Props>> = ({
       target="_blank"
     >
       <LogoRound width="24px" mr="8px" />
-      <Text color={color} bold>{` $${caribPriceUsd.toFixed(3)}`}</Text>
+      <Text color={color} bold>{` $${getTokenPrice('0xfa4ac363c455ff9cc3348616a26f1eae258ac665','0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c','0x9f8b8fe01b26957cf3dcd6fbd3675053ba2c02c8')}`}</Text>
     </PriceLink> 
   ) : showSkeleton ? (
      <Skeleton width={80} height={24} />  
