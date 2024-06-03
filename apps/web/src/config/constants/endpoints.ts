@@ -85,3 +85,5 @@ export const MERCURYO_WIDGET_URL =
     : 'https://widget.mercuryo.io/embed.2.0.js'
 
 export const WALLET_API = 'https://wallet-api.pancakeswap.com'
+
+export const CAKE_PRICE_DEXSCREENER_API_URL = 'https://api.dexscreener.com/latest/dex/pairs/bsc/0xfa4ac363c455ff9cc3348616a26f1eae258ac665'
