@@ -37,7 +37,7 @@ const CaribPrice: React.FC<React.PropsWithChildren<Props>> = ({
       target="_blank"
     >
       <LogoRound width="24px" mr="8px" />
-      <Text color={color} bold>{` $${caribPriceUsd}`}</Text>
+      <Text color={color} bold>{`\xa0 $${caribPriceUsd}`}</Text>
     </PriceLink> 
   ) : showSkeleton ? (
      <Skeleton width={80} height={24} />  
