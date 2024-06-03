@@ -33,7 +33,7 @@ const Icon: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
       </Svg>
     ); */
 
-   return <img src="/cariblogo.png" height="20px" width="20px" alt="logo" style="margin-right: 10px"/>;
+   return <img src="/cariblogo.png" height="20px" width="20px" alt="logo"/>;
 };
 
 export default Icon;
