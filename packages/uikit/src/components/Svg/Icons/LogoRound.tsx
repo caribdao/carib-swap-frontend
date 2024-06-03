@@ -3,7 +3,7 @@ import Svg from "../Svg";
 import { SvgProps } from "../types";
 
 const Icon: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
-   return (
+   /* return (
       <Svg viewBox="0 0 96 96" {...props}>
         <circle cx={48} cy={48} r={48} fill="#53DEE9" />
         <path
@@ -31,9 +31,9 @@ const Icon: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
           </linearGradient>
         </defs>
       </Svg>
-    );
+    ); */
 
-  // return <img src="/cakelogo.png" height="20px" width="20px" alt="logo" />;
+   return <img src="/cariblogo.png" height="20px" width="20px" alt="logo" />;
 };
 
 export default Icon;
