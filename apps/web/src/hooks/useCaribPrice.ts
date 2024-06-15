@@ -37,7 +37,7 @@ export const getCaribPriceDs = async () => {
   try {
     const response = await fetch(CARIB_PRICE_DEXSCREENER_API_URL);
     if (!response.ok) {
-      return 'NaN';
+      return '\xa0';
     }
     const data = await response.json();
 
