@@ -12,6 +12,6 @@ export const SEO: DefaultSeoProps = {
   openGraph: {
     title: "🌊 CARIB Swap - A Caribbean-flavored DEX",
     description: 'Trade, earn, and own crypto on a Caribbean-flavored DEX',
-    images: [{ url: 'https;//swap.caribdao.com/images/caribswap/logo.png' }],
+    images: [{ url: 'https://swap.caribdao.com/images/caribswap/logo.png' }],
   },
 }
