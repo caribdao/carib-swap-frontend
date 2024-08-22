@@ -73,7 +73,7 @@ export const VeCakeBanner = () => {
 
   const learnMoreAction = (
     <LinkExternalAction color="black" href={learnMoreLink}>
-      {t('Learn More')}
+      {t('More info')}
     </LinkExternalAction>
   )
 
