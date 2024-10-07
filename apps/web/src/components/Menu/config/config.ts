@@ -208,8 +208,8 @@ const config: (
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
-          label: t('Lite Paper'),
-          href: 'https://caribdao.com/litepaper',
+          label: t('White Paper'),
+          href: 'https://swap.caribdao.com/CS_Whitepaper.pdf',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         
