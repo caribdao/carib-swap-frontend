@@ -226,7 +226,7 @@ const Hero = () => {
           >
           <Text textAlign={isMobile || isMd ? 'center' : 'left'} pr={isMobile ? 0 : '10px'} mb="16px">
             <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text" mr="8px">
-              {t("We")}
+              {t("Caribbean-")}
             </StyledText>
             <StyledText
               display="inline-block"
@@ -235,11 +235,11 @@ const Hero = () => {
               color="secondary"
               mr={isMobile ? 0 : '8px'}
             >
-              {t("\xa0Cookin'")}
+              {t("\xa0Flavored'")}
             </StyledText>
             {isMobile && <br />}
             <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text">
-              {t('with Gas!')}
+              {t('Multichain DEX!')}
             </StyledText>
           </Text>
           <Text
