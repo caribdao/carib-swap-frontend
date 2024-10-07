@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://swap.caribdao.com">
       <img src="https://swap.caribdao.com/logo.png" height="128">
-  </a> \xa0
+  </a> /n
   <a href="https://pancakeswap.finance">
       <img src="https://pancakeswap.finance/logo.png" height="128">
   </a>
