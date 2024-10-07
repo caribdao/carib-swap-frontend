@@ -3,13 +3,13 @@
 <p align="center">
   <a href="https://swap.caribdao.com">
       <img src="https://swap.caribdao.com/logo.png" height="128">
-  </a> /n
+  </a>
   <a href="https://pancakeswap.finance">
       <img src="https://pancakeswap.finance/logo.png" height="128">
   </a>
 </p>
 
-The CARIB Swap project contains the main features of the pancake application.
+The CARIB Swap project leverages the main features of the PancakeSwap pancake application.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
 
