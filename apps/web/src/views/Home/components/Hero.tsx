@@ -235,7 +235,7 @@ const Hero = () => {
               color="secondary"
               mr={isMobile ? 0 : '8px'}
             >
-              {t("Flavored'")}
+              {t("Flavored")}
             </StyledText>
             {isMobile && <br />}
             <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text">
