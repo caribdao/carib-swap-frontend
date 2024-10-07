@@ -225,7 +225,7 @@ const Hero = () => {
           borderRadius="20px"
           >
           <Text textAlign={isMobile || isMd ? 'center' : 'left'} pr={isMobile ? 0 : '10px'} mb="16px">
-            <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text" mr="8px">
+            <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text" mr="0px">
               {t("Caribbean-")}
             </StyledText>
             <StyledText
