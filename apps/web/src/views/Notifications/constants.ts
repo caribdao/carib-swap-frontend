@@ -62,8 +62,8 @@ export const PancakeNotifications: {
     return {
       title: t('New LP Position Added'),
       body: t('New LP position successfully added. You will be notified on important updates.'),
-      icon: `https://pancakeswap.finance/logo.png`,
-      url: 'https://pancakeswap.finance',
+      icon: `https://swap.caribdao.com/logo.png`,
+      url: 'https://swap.caribdao.com',
       type: SubsctiptionType.Liquidity,
     }
     // ... add more as we create use cases
