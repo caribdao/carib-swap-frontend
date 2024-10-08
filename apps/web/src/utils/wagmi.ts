@@ -17,8 +17,8 @@ export const injectedConnector = injected({
 })
 
 export const coinbaseConnector = coinbaseWallet({
-  appName: 'PancakeSwap',
-  appLogoUrl: 'https://pancakeswap.com/logo.png',
+  appName: 'CARIB Swap',
+  appLogoUrl: 'https://swap.caribdao.com/logo.png',
 })
 
 export const walletConnectConnector = walletConnect({
@@ -37,7 +37,7 @@ export const metaMaskConnector = injected({ target: 'metaMask', shimDisconnect: 
 export const trustConnector = injected({ target: 'trust', shimDisconnect: false })
 
 const bloctoConnector = blocto({
-  appId: 'e2f2f0cd-3ceb-4dec-b293-bb555f2ed5af',
+  appId: '5a531fd0-c722-4512-ac76-2c9dd158d954',
 })
 
 export const binanceWeb3WalletConnector = getWagmiConnectorV2()
@@ -73,8 +73,8 @@ export const transports = chains.reduce((ts, chain) => {
 
 export const cyberWalletConnector = isCyberWallet()
   ? createCyberWalletConnector({
-      name: 'PancakeSwap',
-      appId: 'b825cd87-2db3-456d-b108-d61e74d89771',
+      name: 'CARIB Swap',
+      appId: '9cf419f5-17e7-46f8-9b33-4e4e04f1172c',
     })
   : undefined
 
