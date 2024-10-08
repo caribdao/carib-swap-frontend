@@ -209,7 +209,7 @@ const config: (
         },
         {
           label: t('White Paper'),
-          href: 'https://swap.caribdao.com/CS_Whitepaper.pdf',
+          href: 'https://swap.caribdao.com/whitepaper.pdf',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         
