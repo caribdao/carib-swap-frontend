@@ -16,7 +16,7 @@ interface INotificationWidget {
 }
 
 initWeb3InboxClient({
-  projectId: 'e542ff314e26ff34de2d4fba98db70bb',
+  projectId: '73f47466e85e87f29839e5ff017ddd2d',
   domain: APP_DOMAIN,
   allApps: true,
 })
