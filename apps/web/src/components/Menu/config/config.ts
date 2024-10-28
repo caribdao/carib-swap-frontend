@@ -12,7 +12,7 @@ import {
   MoreIcon,
   NftFillIcon,
   NftIcon,
-  PancakeProtectorIcon,
+  STARFISHIcon,
   CaribLogoIcon,
   ShoppingBasketFilledIcon,
   ShoppingBasketIcon,
@@ -143,7 +143,7 @@ const config: (
     },   */ 
     {
       label: t('Game'),
-      icon: PancakeProtectorIcon,
+      icon: STARFISHIcon,
       hideSubNav: true,
       href: 'https://t.me/starfishgame_bot',
       items: [
