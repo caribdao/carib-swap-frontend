@@ -159,7 +159,7 @@ export { default as SmartContractIcon } from "./Icons/SmartContract";
 export { default as SortArrowIcon } from "./Icons/SortArrowIcon";
 export { default as SplitIcon } from "./Icons/Split";
 export { default as StarCircle } from "./Icons/StarCircle";
-export { default as STARFISHIcon } from "./Icons/STARFISH;
+export { default as STARFISHIcon } from "./Icons/STARFISH";
 export { default as StarFillIcon } from "./Icons/StarFill";
 export { default as StarLineIcon } from "./Icons/StarLine";
 export { default as StoreIcon } from "./Icons/Store";
