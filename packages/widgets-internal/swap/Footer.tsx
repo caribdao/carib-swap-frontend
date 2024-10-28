@@ -50,7 +50,7 @@ const Footer: React.FC<
   helpUrl,
   externalText,
   externalLinkUrl,
-  helpImage = <Image src="/images/help.png" alt="Get some help" width={120} height={120} />,
+  helpImage = <Image src="/images/sftransparent.png" alt="STARFISH Game" width={120} height={120} />,
 }) => {
   const { t } = useTranslation();
   const isSide = variant === "side";
@@ -79,7 +79,7 @@ const Footer: React.FC<
         >
           <BubbleWrapper>
             <Button id="clickExchangeHelp" as="a" external href={helpUrl} variant="subtle">
-              {t("Need help ?")}
+              {t("Play STARFISH Game!")}
             </Button>
             <Svg viewBox="0 0 16 16">
               <path d="M0 16V0C0 0 3 1 6 1C9 1 16 -2 16 3.5C16 10.5 7.5 16 0 16Z" />
