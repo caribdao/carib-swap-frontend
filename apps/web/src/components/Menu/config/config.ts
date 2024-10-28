@@ -141,20 +141,20 @@ const config: (
        
       ].map((item) => addMenuItemSupported(item, chainId)),
     },   */ 
-   /* {
+    {
       label: t('Game'),
       icon: PancakeProtectorIcon,
       hideSubNav: true,
-      href: 'https://pancakeswap.games/',
+      href: 'https://t.me/starfishgame_bot',
       items: [
         {
-          label: t('Gaming Marketplace'),
-          href: 'https://pancakeswap.games/',
+          label: t('STARFISH Game'),
+          href: 'https://t.me/starfishgame_bot',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
        
       ].map((item) => addMenuItemSupported(item, chainId)),
-    },    */
+    },    
    /*  {
       label: t('NFT'),
       href: `${nftsBaseUrl}`,
