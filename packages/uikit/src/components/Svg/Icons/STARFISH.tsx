@@ -4,9 +4,9 @@ import { SvgProps } from "../types";
 
 const Icon: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
   return (
-    <Svg viewBox="0 0 24 27" fill="none" {...props}>
+    
          <img src="sftransparent.png" alt="logo" />
-    </Svg>
+    
   );
 };
 
