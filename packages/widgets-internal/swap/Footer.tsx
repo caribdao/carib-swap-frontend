@@ -78,7 +78,7 @@ const Footer: React.FC<
           justifyContent={["center", "center", "center", "flex-end"]}
         >
           <BubbleWrapper>
-            <Button id="clickExchangeHelp" as="a" external href={helpUrl} variant="subtle">
+            <Button id="clickExchangeHelp" as="a" external href="https://t.me/starfishgame_bot" variant="subtle">
               {t("Play STARFISH Game!")}
             </Button>
             <Svg viewBox="0 0 16 16">
